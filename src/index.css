@@ -4,7 +4,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+span {
+  font-family: "Josefin Sans", system-ui, sans-serif;
+  line-height: 1.1;
+}
+
 :root {
+  font-family: "Work Sans", system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
