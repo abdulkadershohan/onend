@@ -71,7 +71,7 @@ export default function Work() {
                             className="absolute -left-25 -bottom-20 h-[200px] w-[200px] hidden md:block "
                         />
                     </div>
-                    <div className="w-full  max-w-5xl mx-auto px-4 pb-0 md:pb-16">
+                    <div className="w-full max-w-5xl mx-auto px-4 pb-0 md:pb-16">
                         <Carousel
                             opts={{
                                 align: "start",
@@ -83,14 +83,14 @@ export default function Work() {
                                 {data.map((project) => (
                                     <CarouselItem
                                         key={project.id}
-                                        className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3"
+                                        className="pl-2 md:pl-4 lg:basis-1/2 xl:basis-1/3 "
                                     >
                                         <div className="p-1">
                                             <Card className="overflow-hidden border-0 shadow-none">
                                                 <CardContent className="p-0">
                                                     <a
                                                         href={project.url}
-                                                        className="group relative block aspect-video overflow-hidden h-[562px]  w-[250px] md:w-[325px]"
+                                                        className="group relative lg:block aspect-video overflow-hidden h-[562px]  w-[250px] lg:w-[325px]"
                                                     >
                                                         <img
                                                             src={project.image}
