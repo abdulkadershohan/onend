@@ -47,7 +47,8 @@ const data: IDate[] = [
 ]
 export default function Service() {
     return (
-        <div
+        <section
+            id="service"
             className="bg-gray-950 py-20"
         >
             <div className="container mx-auto text-white ">
@@ -76,7 +77,7 @@ export default function Service() {
 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 const ServiceCard = ({ title, description, icon }: IDate) => {

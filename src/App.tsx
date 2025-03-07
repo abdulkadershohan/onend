@@ -3,6 +3,7 @@ import Navbar from "./components/layout/navbar";
 import About from "./section/about";
 import Banner from "./section/banner";
 import Service from "./section/service";
+import Work from "./section/work";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       <Navbar />
       <Banner />
       <About />
-      <div className="py-16">
+      <div className="pt-16">
         <Service />
       </div>
+      <Work />
     </div>
   );
 }
