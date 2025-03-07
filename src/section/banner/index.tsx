@@ -11,7 +11,7 @@ export default function Banner() {
 
             <div className='container  mx-auto '>
                 <div className="grid md:grid-cols-[2fr_1fr] gap-4 py-20 px-2 md:px-0 ">
-                    <div className="space-y-10 relative text-center md:text-start " >
+                    <div className="space-y-10 relative  text-center md:text-start " >
                         <h1
                             className="text-4xl md:text-[5.0625rem] font-medium text-[#000] leading-10 md:leading-[6.25rem] "
                         >
@@ -24,11 +24,11 @@ export default function Banner() {
                         </div>
                         <Button
                             variant={'outline'}
-                            className="rounded-none cursor-pointer md:h-16 md:w-63 "
+                            className="rounded-none cursor-pointer md:h-16 md:w-63 relative z-20"
                         >
                             Get Started <ArrowRight className="ml-2" />
                         </Button>
-                        <img src={shape} alt="shape" className="absolute right-38 -bottom-10 hidden md:block" />
+                        <img src={shape} alt="shape" className="absolute right-38 -bottom-10 hidden md:block " />
                         <img src={shape} alt="shape" className="absolute -right-2 -bottom-2  md:hidden h-16" />
                         <img src={graphics} alt="graphics" className="absolute -left-55 -bottom-95 h-[658px] w-[658px] hidden md:block z-10" />
                         <img src={graphics} alt="graphics" className="absolute -left-12 -bottom-10 h-[200px] w-[200px] md:hidden" />
