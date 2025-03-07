@@ -1,10 +1,10 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import Navbar from "./components/layout/navbar";
 
 function App() {
   return (
     <div>
-      <Button>Click me</Button>
+      <Navbar />
     </div>
   );
 }
