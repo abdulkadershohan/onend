@@ -74,6 +74,18 @@ export default {
                 'accordion-down': 'accordion-down 0.2s ease-out',
                 'accordion-up': 'accordion-up 0.2s ease-out',
             },
+
+        },
+        container: {
+            center: true, // Centers the container
+            padding: "1rem", // Adds padding inside the container
+            screens: {
+                sm: "640px",
+                md: "768px",
+                lg: "1024px",
+                xl: "1280px",
+                "2xl": "1440px", // Set your custom max-width
+            },
         },
     },
     plugins: [require('tailwindcss-animate')],
