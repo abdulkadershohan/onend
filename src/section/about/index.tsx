@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function About() {
     return (
-        <section >
+        <section id='about'>
             <div className="container mx-auto -mt-70 space-y-10 ">
                 <img src='/images/video.png' alt="video" className="w-full h-[802px] relative z-20 " />
                 <div className="text-center space-y-10 ">
@@ -18,7 +18,7 @@ export default function About() {
 
                     </p>
                     <Button
-                        className="bg-[#B6F214] text-[#000] rounded-none cursor-pointer md:h-16 md:w-63 "
+                        className="bg-[#B6F214] hover:bg-[#B6F21470] text-[#000] rounded-none cursor-pointer md:h-16 md:w-63 "
                     >
                         Get a free consultation <ArrowRight className="ml-2" />
                     </Button>
