@@ -51,7 +51,7 @@ export default function Service() {
             id="service"
             className="bg-gray-950 py-20"
         >
-            <div className="container mx-auto text-white ">
+            <div className="container mx-auto lg:lg:w-7xl text-white ">
                 <div className="text-center space-y-10 ">
                     <span className="uppercase">
                         Our Best Services

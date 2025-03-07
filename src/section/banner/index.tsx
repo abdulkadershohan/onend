@@ -9,7 +9,7 @@ export default function Banner() {
             className="bg-[#B6F214] pb-60"
         >
 
-            <div className='container  mx-auto '>
+            <div className='container  mx-auto lg:lg:w-7xl '>
                 <div className="grid md:grid-cols-[2fr_1fr] gap-4 py-20 px-2 md:px-0 ">
                     <div className="space-y-10 relative  text-center md:text-start " >
                         <h1

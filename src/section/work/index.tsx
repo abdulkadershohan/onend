@@ -53,7 +53,7 @@ export default function Work() {
         <section
             id="work"
         >
-            <div className="container mx-auto ">
+            <div className="container mx-auto  lg:lg:w-7xl ">
                 <div className="grid md:grid-cols-[1fr_1fr] gap-4 px-2 md:px-0   ">
                     <div className="relative">
                         <h1 className="text-3xl md:text-[5.0625rem] font-medium text-[#000] leading-[6.25rem]  ">
