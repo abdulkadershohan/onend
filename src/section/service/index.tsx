@@ -49,7 +49,7 @@ export default function Service() {
     return (
         <section
             id="service"
-            className="bg-gray-950 py-20 relative"
+            className="bg-gray-950 py-20 relative "
         >
             <div className="container mx-auto lg:w-7xl text-white ">
                 <div className="text-center space-y-10 ">

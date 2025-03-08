@@ -1,4 +1,3 @@
-import "./App.css";
 import Footer from "./components/layout/footer";
 import Navbar from "./components/layout/navbar";
 import About from "./section/about";
@@ -13,9 +12,7 @@ function App() {
       <Navbar />
       <Banner />
       <About />
-      <div className="pt-16">
-        <Service />
-      </div>
+      <Service />
       <Work />
       <Brand />
       <Footer />

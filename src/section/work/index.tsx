@@ -57,7 +57,7 @@ export default function Work() {
     return (
         <section id="work" className="relative" >
             <div className="container mx-auto  lg:w-7xl">
-                <div className="grid md:grid-cols-[1fr_1fr] gap-4 px-2 md:px-0   ">
+                <div className="grid md:grid-cols-[1fr_1fr] gap-4 px-2 md:px-0 items-center ">
                     <div className="">
                         <h1 className="text-3xl md:text-[5.0625rem] font-medium text-[#000] leading-[6.25rem]  ">
                             Our Latest Work
@@ -67,7 +67,7 @@ export default function Work() {
                         </Button>
 
                     </div>
-                    <div className="w-full max-w-5xl md:max-w-3xl xl:max-w-5xl mx-auto px-4 pb-0 md:pb-16">
+                    <div className="w-full max-w-5xl md:max-w-3xl xl:max-w-5xl mx-auto px-4 pb-0 md:pb-16 md:ml-10 py-16">
                         <Carousel
                             opts={{
                                 align: "start",
