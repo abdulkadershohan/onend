@@ -28,7 +28,7 @@ const menu: Menu[] = [
 export default function Navbar() {
     return (
         <div className="bg-gray-950">
-            <div className="container mx-auto lg:lg:w-7xl">
+            <div className="container mx-auto lg:w-7xl">
                 <div className="flex justify-between items-center py-4">
                     <img src="/logo.png" alt="Logo" className="h-[3.25rem] w-[7.6875rem]" />
                     <div className="text-white">

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function About() {
     return (
         <section id='about'>
-            <div className="container mx-auto lg:lg:w-7xl -mt-70 space-y-10 ">
+            <div className="container mx-auto lg:w-7xl -mt-70 space-y-10 ">
                 <img src='/images/video.png' alt="video" className="w-full h-[802px] relative z-20 " />
                 <div className="text-center space-y-10 ">
                     <span className="uppercase">
