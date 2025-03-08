@@ -9,6 +9,8 @@ export { default as icon5 } from './icon5.svg';
 export { default as instagram } from './instagram.svg';
 export { default as shape } from './shape.svg';
 export { default as sphere_Matrix } from './sphere_Matrix.svg';
+export { default as Spring_Thin_Tall } from './Spring_Thin_Tall.svg';
+export { default as Torus_Concentric_Standing } from './Torus_Concentric_Standing.svg';
 export { default as torus_Half_Standing } from './Torus_Half_Standing_1_0003.svg';
 export { default as torus_Standing } from './Torus_Standing_1_0001.svg';
 export { default as twitter } from './twitter.svg';
