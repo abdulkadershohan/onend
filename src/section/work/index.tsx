@@ -55,9 +55,9 @@ const data: IData[] = [
 ];
 export default function Work() {
     return (
-        <section id="work" >
+        <section id="work" className="relative" >
             <div className="container mx-auto  lg:w-7xl">
-                <div className="grid md:grid-cols-[1fr_1fr] gap-4 px-2 md:px-0 relative  ">
+                <div className="grid md:grid-cols-[1fr_1fr] gap-4 px-2 md:px-0   ">
                     <div className="">
                         <h1 className="text-3xl md:text-[5.0625rem] font-medium text-[#000] leading-[6.25rem]  ">
                             Our Latest Work
@@ -65,11 +65,7 @@ export default function Work() {
                         <Button variant={"ghost"} className=" cursor-pointer text-base ">
                             Our Case Studies <ArrowRight className="ml-2" />
                         </Button>
-                        <img
-                            src={sphere_Matrix}
-                            alt="sphere"
-                            className="absolute -left-35 -bottom-20 h-[200px] w-[200px] hidden md:block z-10"
-                        />
+
                     </div>
                     <div className="w-full max-w-5xl md:max-w-3xl xl:max-w-5xl mx-auto px-4 pb-0 md:pb-16">
                         <Carousel
@@ -157,6 +153,12 @@ export default function Work() {
                     </div>
                 </div>
             </div>
+            <img
+                src={sphere_Matrix}
+                alt="sphere"
+                className="absolute bottom-80 -left-10 h-[200px] w-[200px] hidden md:block z-10"
+
+            />
         </section>
     );
 }
