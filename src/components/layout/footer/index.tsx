@@ -28,14 +28,14 @@ export default function Footer() {
 
                             <a className="text-2xl font-medium leading-11 w-fit"
                                 href="#"
-                            >careers</a>
+                            >Careers</a>
 
                         </div>
                     </div>
                     <div>
                         <div className="grid space-y-4">
                             <a className="text-2xl font-medium leading-11 w-fit"
-                                href="#"
+                                href="#services"
                             >Service</a>
                             <a className="text-2xl font-medium leading-11 w-fit"
                                 href="#"

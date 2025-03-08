@@ -48,7 +48,7 @@ const data: IDate[] = [
 export default function Service() {
     return (
         <section
-            id="service"
+            id="services"
             className="bg-gray-950 py-20 relative "
         >
             <div className="container mx-auto lg:w-7xl text-white ">
