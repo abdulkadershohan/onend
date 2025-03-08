@@ -71,7 +71,7 @@ export default function Work() {
                             className="absolute -left-35 -bottom-20 h-[200px] w-[200px] hidden md:block z-10"
                         />
                     </div>
-                    <div className="w-full max-w-5xl mx-auto px-4 pb-0 md:pb-16">
+                    <div className="w-full max-w-5xl md:max-w-3xl xl:max-w-5xl mx-auto px-4 pb-0 md:pb-16">
                         <Carousel
                             opts={{
                                 align: "start",

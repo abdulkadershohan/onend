@@ -50,7 +50,7 @@ export default function Footer() {
                     </div>
                     <div className="space-y-10">
 
-                        <p className="font-medium text-3xl leading-10">
+                        <p className="font-medium text-2xl md:text-3xl md:leading-10">
                             Subscribe to our Newsletter
                         </p>
                         <form className="flex space-y-2">
@@ -70,6 +70,13 @@ export default function Footer() {
                     </div>
                 </div>
 
+            </div>
+            <hr className="bg-gray-50" />
+            <div className="container mx-auto lg:w-7xl py-10 text-center">
+                <p className="text-sm md:text-lg leading-4">
+                    All Rights Reserved @ <span className="text-[#B6F214]">
+                        Onend Solutions   </span>
+                </p>
             </div>
         </section>
     )
