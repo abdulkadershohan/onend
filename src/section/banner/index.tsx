@@ -6,7 +6,7 @@ export default function Banner() {
     return (
         <section
             id="banner"
-            className="bg-[#B6F214] pb-60"
+            className="bg-[#B6F214] pb-60 relative"
         >
 
             <div className='container  mx-auto lg:w-7xl '>
@@ -30,13 +30,14 @@ export default function Banner() {
                         </Button>
                         <img src={shape} alt="shape" className="absolute right-38 -bottom-10 hidden md:block " />
                         <img src={shape} alt="shape" className="absolute -right-2 -bottom-2  md:hidden h-16" />
-                        <img src={graphics} alt="graphics" className="absolute -left-55 -bottom-95 h-[658px] w-[658px] hidden md:block z-10" />
-                        <img src={graphics} alt="graphics" className="absolute -left-12 -bottom-10 h-[200px] w-[200px] md:hidden" />
+
                     </div>
                     <img src="/images/banner.png" alt="banner" className="md:w-[515px] md:h-[394px] z-10 " />
 
                 </div>
             </div>
+            <img src={graphics} alt="graphics" className="absolute -left-30 -bottom-0 h-[658px] w-[658px] hidden md:block z-10" />
+            <img src={graphics} alt="graphics" className="absolute -left-10 top-75 h-[200px] w-[200px] md:hidden" />
 
 
         </section>

@@ -1,4 +1,4 @@
-import { icon, icon1, icon2, icon3, icon4, icon5 } from "@/assets/svg";
+import { icon, icon1, icon2, icon3, icon4, icon5, Sphere_Extruded_Smooth } from "@/assets/svg";
 
 type IDate = {
     id?: number;
@@ -49,7 +49,7 @@ export default function Service() {
     return (
         <section
             id="service"
-            className="bg-gray-950 py-20"
+            className="bg-gray-950 py-20 relative"
         >
             <div className="container mx-auto lg:w-7xl text-white ">
                 <div className="text-center space-y-10 ">
@@ -77,6 +77,9 @@ export default function Service() {
 
                 </div>
             </div>
+            <img src={Sphere_Extruded_Smooth}
+                className="absolute right-0  -bottom-20 hidden xl:block"
+                alt="" />
         </section>
     )
 }
